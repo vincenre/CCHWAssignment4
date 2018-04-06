@@ -27,7 +27,6 @@ The command that I used to run the map-reduce job is :
 > /home/vincenre/mapper.py -file /home/vincenre/reducer.py -reducer /home/vincenre/reducer.py  -input /data/nyc/nyc-traffic.csv -output 
 > /home/vincenre/job7/nyc-output
 
+Note: I have used the reducer script from the below website with a few minor changes.
 
-
-
-
+> http://michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
