@@ -13,7 +13,9 @@ The reducer.py file simply puts all these together and gives out the summary.
 As I am in Windows and I am using PUTTY, I had to first copy the file onto the HADOOP cluster. I used the following command to copy the files from my local directory to hadoop directory.
 
 > pscp -l vincenre D:\UC\Spring2017\CloudComputing\HW4\mapper.py vincenre@hadoop-gate-0.eecs.uc.edu:/home/vincenre
+>
 > pscp -l vincenre D:\UC\Spring2017\CloudComputing\HW4\reducer.py vincenre@hadoop-gate-0.eecs.uc.edu:/home/vincenre
+>
 
 The dataset was already on the hadoop cluster, so I did not have to transfer the dataset.
 
